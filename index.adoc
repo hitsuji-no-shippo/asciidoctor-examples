@@ -47,11 +47,9 @@
 :!author-email:
 :author: {author-name}
 :!email: {author-email}
-:revnumber: v1.1.0
-:revdate: 2019-12-26T09:38:49+0900
-:revremark: change include path from \
-            `content/blog/asciidoc-examples/index.adoc` to \
-            `{full-path-from-project}`
+:revnumber: v1.1.1
+:revdate: 2020-02-10T20:46:28+0900
+:revremark: Move custome marker list into Unordered List.
 :doctype: article
 :description:
 :title:
@@ -133,6 +131,16 @@ ____
 ... Indented level 3
 . List item 3
 
+==== Unordered List
+
+* List item 1
+* List item 2
+** Indented level 2
+*** Indented level 3
+**** Indented level 4
+***** Indented level 5
+* List item 3
+
 ===== Markers
 
 .square
@@ -166,15 +174,6 @@ ____
 ** item3
 
 
-==== Unordered List
-
-* List item 1
-* List item 2
-** Indented level 2
-*** Indented level 3
-**** Indented level 4
-***** Indented level 5
-* List item 3
 
 ==== Description List
 

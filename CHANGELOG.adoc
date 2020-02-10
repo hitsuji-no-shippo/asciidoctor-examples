@@ -3,9 +3,9 @@
 :!author-email:
 :author: {author-name}
 :!email: {author-email}
-:revnumber: v1.1.0
-:revdate: 2019-12-26T11:59:38+0900
-:revremark: Add log that clone hitsuji-no-shippo/sample-articles-for-asciidoctor/asciidoc-examples
+:revnumber: v1.2.0
+:revdate: 2020-02-10T20:46:13+0900
+:revremark: Move custome marker list into Unordered List.
 :doctype: article
 :description: asciidoctor-examples Change Log
 :title:
@@ -42,6 +42,13 @@ ifndef::env-github[:icons: font]
 :author-github-profile-url: {github-url}/hitsuji-no-shippo
 :repository-url: {author-github-profile-url}/asciidoctor-examples
 :issues-url: {repository-url}/issues
+
+== 0.1.0 (2019-02-10)
+
+=== Fix
+
+* Move custome marker list into Unordered List.
+  (close link:{issues-url}/3[#3])
 
 == 0.0.0 (2019-12-26)
 
