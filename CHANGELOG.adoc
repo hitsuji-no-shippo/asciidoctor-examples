@@ -3,9 +3,9 @@
 :!author-email:
 :author: {author-name}
 :!email: {author-email}
-:revnumber: v1.2.0
-:revdate: 2020-02-10T20:46:13+0900
-:revremark: Move custome marker list into Unordered List.
+:revnumber: v1.3.0
+:revdate: 2020-02-18T14:54:46+0900
+:revremark: Add wrap literal
 :doctype: article
 :description: asciidoctor-examples Change Log
 :title:
@@ -44,6 +44,12 @@ ifndef::env-github[:icons: font]
 :issues-url: {repository-url}/issues
 
 == 0.1.0 (2019-02-10)
+
+=== Features
+
+==== Add
+
+* Wrap literal. (close link:{issues-url}/4[#4])
 
 === Fix
 

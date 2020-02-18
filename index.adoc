@@ -47,9 +47,9 @@
 :!author-email:
 :author: {author-name}
 :!email: {author-email}
-:revnumber: v1.1.1
-:revdate: 2020-02-10T20:46:28+0900
-:revremark: Move custome marker list into Unordered List.
+:revnumber: v1.2.0
+:revdate: 2020-02-18T14:46:50+0900
+:revremark: Add wrap literal
 :doctype: article
 :description:
 :title:
@@ -70,6 +70,7 @@
 :!listing-caption:
 :icons: font
 :experimental:
+:!prewrap:
 // end::attributes[]
 
 .Attributes
@@ -580,6 +581,12 @@ P R E F O R M A T T E D T E X T
 P Q R S T U V W X Y Z [ \ ] ^ _
 ` a b c d e f g h i j k l m n o
 p q r s t u v w x y z { | } ~
+
+.Wrap
+[literal]
+----
+0123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789
+----
 
 [source, Asciidoc]
 ----
