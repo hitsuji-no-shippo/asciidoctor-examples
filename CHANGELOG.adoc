@@ -4,8 +4,8 @@
 :author: {author-name}
 :!email: {author-email}
 :revnumber: v1.3.0
-:revdate: 2020-02-18T14:54:46+0900
-:revremark: Add wrap literal
+:revdate: 2020-02-19T10:05:00+0900
+:revremark: Add log that fix title `asciidoc example` to `asciidoctor examples`.
 :doctype: article
 :description: asciidoctor-examples Change Log
 :title:
@@ -43,7 +43,7 @@ ifndef::env-github[:icons: font]
 :repository-url: {author-github-profile-url}/asciidoctor-examples
 :issues-url: {repository-url}/issues
 
-== 0.1.0 (2019-02-10)
+== 0.1.0 (2019-02-19)
 
 === Features
 
@@ -55,6 +55,9 @@ ifndef::env-github[:icons: font]
 
 * Move custome marker list into Unordered List.
   (close link:{issues-url}/3[#3])
+* Title `asciidoc example` to `asciidoctor examples`.
+  (close link:{issues-url}/5[#5])
+
 
 == 0.0.0 (2019-12-26)
 

@@ -42,14 +42,14 @@
 // LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 // SOFTWARE.
-= Asciidoc Example
+= Asciidoctor Examples
 :author-name: hitsuji no shippo
 :!author-email:
 :author: {author-name}
 :!email: {author-email}
-:revnumber: v1.2.0
-:revdate: 2020-02-18T14:46:50+0900
-:revremark: Add wrap literal
+:revnumber: v1.2.1
+:revdate: 2020-02-19T10:02:13+0900
+:revremark: Fix title from `Asciidoc Example` to `Asciidoctor Examples`
 :doctype: article
 :description:
 :title:
